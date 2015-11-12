@@ -18,6 +18,9 @@ li {
 /*	color: #5d614e;
 */}
 
+footer {
+  display: inline;
+}
 .image {
 	position	: relative;
 	width		: 100%; /* for IE 6 */
