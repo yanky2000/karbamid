@@ -26,6 +26,15 @@ footer {
 	width		: 100%; /* for IE 6 */
 }
 
+.btn-info {
+  position  : absolute;
+  top   : 650px;
+  left    : 740px;
+  width   : 20%;
+
+}
+
+
 h2 {
 	position	: absolute;
 	top		: 200px;
@@ -33,14 +42,20 @@ h2 {
 	width		: 100%;
 }
 
-.adv_blocks {
-	margin: 15px;
-	padding: 10px;
-	background-color: yellow;
+.front_caption {
+  font-size: 48px;
+  font-family: 'PT Sans Caption', sans-serif;
 }
+
+.adv_blocks {
+/*	margin: 5px;*/
+	padding: 15px;
+/*	background-color: yellow;
+*/}
 
 p.adv {
 	font-size: 1.5em;
+font-family: 'Roboto', sans-serif;;
 }
 
 
