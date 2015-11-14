@@ -1,133 +1,130 @@
-@import url(http://weloveiconfonts.com/api/?family=zocial);
-[class*="zocial-"]:before {
-  font-family: 'zocial', sans-serif;
-}
-
-
-li {
-  color: blue;
-  font: 24px;
-}
-
-.globe {
-  color:;
-}
 
 .container {
 	max-width: 100%;
-/*	color: #5d614e;
+	color: #424242;
+}
+
+header {
+	margin-bottom: 25px;
+/*  background-color: #E9E9E9;
 */}
 
+body {
+}
+
 footer {
-  display: inline;
+	margin-top: 15px;
+	background-color: #BCBCBC;
 }
+
 .image {
-	position	: relative;
-	width		: 100%; /* for IE 6 */
-}
-
-.btn-info {
-  position  : absolute;
-  top   : 650px;
-  left    : 740px;
-  width   : 20%;
-
-}
-
-
-h2 {
-	position	: absolute;
-	top		: 200px;
-	left		: 0;
-	width		: 100%;
+	position: relative;
+	width: 100%; /* for IE 6 */
 }
 
 .front_caption {
-  font-size: 48px;
-  font-family: 'PT Sans Caption', sans-serif;
+	position: absolute;
+	top: 210px;
+	left: 35px;
+	width: 100%;
+	font-size: 48px;
+	font-family: 'PT Sans Caption', sans-serif;
 }
 
-.adv_blocks {
-/*	margin: 5px;*/
-	padding: 15px;
-/*	background-color: yellow;
-*/}
-
-p.adv {
-	font-size: 1.5em;
-font-family: 'Roboto', sans-serif;;
+.btn-info {
+	position: absolute;
+	top: 457px;
+	left: 820px;
+	width: 20%;
 }
 
 
-
-/*  DIV:before,
-  DIV:after {
-    content: "\2605";
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 70px;
-    font-style: normal;
-    }
-
-
-*/
-
-
-.star:before {
-    content: "\2605";
-    font-color: red;
-    display: inline-block;
-    vertical-align: middle;
-    font-size: 70px;
-    font-style: normal;
-}
-.phone_number {
+h2.adv {
 	font-size: 2em;
+	margin-bottom: 1em;
+}
+
+
+.industry_info {
+	font-size: 2em;
+
+}
+
+.phone_number {
+	font-size: 3em;
 }
 
 /*FROM GOOGLE API SENDMAIL*/
-body {
-  margin: 2em;
-}
+
 aside {
-    background: #1f8dd6; /* same color as selected state on site menu */
-    padding: 0.3em 1em;
-    border-radius: 3px;
-    color: #fff;
-    margin-bottom: 2em;
+		background: #1f8dd6; /* same color as selected state on site menu */
+		padding: 0.3em 1em;
+		border-radius: 3px;
+		color: #fff;
+		margin-bottom: 2em;
 }
+
 textarea {
-  width: 100%;
+	width: 100%;
 }
 .content-head {
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  margin: 2em 0 1em;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin: 2em 0 1em;
 }
 .is-center {
-  text-align: center;
+	text-align: center;
 }
 .button-success {
-  color: white;
-  border-radius: 4px;
-  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-  background: rgb(28, 184, 65); /* this is a green */
+	color: white;
+	border-radius: 4px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	background: rgb(28, 184, 65); /* this is a green */
 }
 .button-xlarge {
-  font-size: 125%;
+	font-size: 125%;
 }
 button {
-  float: right;
+	float: right;
 }
 #name, #email {
-  width: 50%;
+	width: 100%;
 }
 
+.adv_blocks {
+	margin: 2em 0;
+	padding: 2.5em;
+/*	border: 1px solid blue;
+*/}
 
+/*FOR GLYPHONICONS*/
 
-/*test
-*/#redstar {
-  color:red;
-  font-color: red;
+.fa {
+	font-size: 2em;
+	color:#FF9900;
+	padding: 15px;
+	border: 1px solid #424242;
+	border-radius: 4px;
+}
+
+.fa-quote-left,
+.fa-quote-right {
+	color: #424242;
+	border:0;
+}
+
+.advtext {
+	font-size: 2em;
+
+}
+
+.general_comments {
+	font-size: 2em;
+}
+
+.focus_text {
+	font-size: 2em;
+	color:#FF9900;
+	font-style: strong;
 }
