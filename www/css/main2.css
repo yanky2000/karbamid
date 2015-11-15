@@ -2,6 +2,8 @@
 .container {
 	max-width: 100%;
 	color: #424242;
+	padding: 0;
+	margin: 0;
 }
 
 header {
@@ -11,16 +13,11 @@ header {
 */}
 
 body {
-	margin: 0;
 }
 
 footer {
 	margin-top: 3em;
-	background: #7e7e7e;
-	color: white;
-	font-size: 11px;
-/*	background-color: #BDB8AD;
-*/
+	background-color: #BDB8AD;
 }
 
 .image {
@@ -30,8 +27,8 @@ footer {
 
 .front_caption {
 	position: absolute;
-	top: 47%;
-	left: 5%;
+	top: 210px;
+	left: 35px;
 	width: 100%;
 	font-size: 3.5em;
 	font-family: 'PT Sans Caption', sans-serif;
@@ -44,7 +41,13 @@ footer {
 	top: 80%;
 	right: 7%;
 	width: 20%;
-	display: none;
+/*	color: #44749D;
+*/}
+
+
+h2.adv {
+	font-size: 2em;
+	margin-bottom: 1em;
 }
 
 
@@ -100,24 +103,23 @@ button {
 }
 
 .advantages_row {
-	display: flex;
+	margin: 0;
 }
+
+.adv_blocks {
+	max-width: 30%;
+	margin: 4% 5% 4% 0;
+/*	margin: 3% ;*/
+	/*	padding: 2%;
+*//*	background-color: #EBE7E0;
+*/
+	 border: 2px solid #EBE7E0;
+	 justify-content: space-around;
+	 }
 
 .adv_blocks:last-of-type {
 	margin-right: 0;
 }
-/*.adv_blocks:first-of-type {
-	margin-left: 0;
-}*/
-
-.adv_blocks {
-	margin: 4%;
-	background-color: #EBE7E0;
-	background-color: #F3F3F3;
-	border: 2px solid #EBE7E0;
-	justify-content: space-around;
-}
-
 
 /*FOR GLYPHONICONS*/
 
@@ -131,14 +133,16 @@ button {
 
 .fa-quote-left,
 .fa-quote-right {
-	font-size: 1em;
+	font-size: 1.2em;
 	font-style: 1.3em;
 	color: #424242;
 	border:0;
+
 }
 
 .advtext {
 	font-size: 1.3em;
+
 }
 
 .general_comments {
@@ -152,64 +156,3 @@ button {
 	color:#44749D;
 	font-style: strong;
 }
-
-.white-text {
-	color: white;
-}
-
-/*.juridical-address {
-	font-size: 1.2em;
-}*/
-
-footer h4 {
-	border-bottom: 1px solid;
-}
-
-footer p {
-	font-size: 1.2em;
-}
-
-
-@media screen and (max-width: 560px) {
-
-	.front_caption,
-	.phone_number,
-	.general_comments {
-		font-size: 1.5em;
-	}
-
-	.email_addr {
-		font-size: 1em;
-	}
-
-	.advantages_row {
-		display: block;
-	}
-
-}
-
-@media screen and (max-width: 786px) {
-	body {
-		font-size: 12px;
-	}
-
-}
-/*@media (max-width: 768px) {
-	body{font-size: 14px;}
-}
-*/
-/*@media only screen and (min-width : 768px)
-and {
-	body{font-size: 10px;}
-}
-*/
-/*footer {
-  	background: #7e7e7e;
-  	color: #dbdbdb;
-  	font-size: 11px;
-
-  	.container {
-		height: 110px;
-		padding: 10px 0;
-	}
-}*/

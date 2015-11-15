@@ -162,11 +162,12 @@ button {
 }*/
 
 footer h4 {
+	font-size: 1.8em;
 	border-bottom: 1px solid;
 }
 
 footer p {
-	font-size: 1.2em;
+	font-size: 1.3em;
 }
 
 
