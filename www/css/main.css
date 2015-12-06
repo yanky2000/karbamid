@@ -44,8 +44,8 @@ footer {
 	top: 80%;
 	right: 7%;
 	width: 20%;
-	display: none;
-}
+/*	display: none;
+*/}
 
 
 .industry_info {
@@ -68,7 +68,7 @@ aside {
 		padding: 0.3em 1em;
 		border-radius: 3px;
 		color: #fff;
-		margin-bottom: 2em;
+		margin: 2em 0;
 }
 
 textarea {
@@ -121,7 +121,7 @@ button {
 
 /*FOR GLYPHONICONS*/
 
-.fa {
+h3 .fa {
 	font-size: 1.5em;
 	color: #44749D;
 	padding: 15px;
