@@ -5,10 +5,8 @@
 }
 
 header {
-/*	margin-bottom: 1em;
-*/	padding: 1em 0;
-/*  background-color: #E9E9E9;
-*/}
+	padding: 1em 0;
+}
 
 body {
 	margin: 0;
@@ -19,13 +17,11 @@ footer {
 	background: #7e7e7e;
 	color: white;
 	font-size: 11px;
-/*	background-color: #BDB8AD;
-*/
 }
 
 .image {
 	position: relative;
-	width: 100%; /* for IE 6 */
+	width: 100%;
 }
 
 .front_caption {
@@ -44,8 +40,7 @@ footer {
 	top: 80%;
 	right: 7%;
 	width: 20%;
-/*	display: none;
-*/}
+}
 
 
 .industry_info {
@@ -54,7 +49,7 @@ footer {
 }
 
 .phone_number {
-	font-size: 2.5em;
+	font-size: 2em;
 }
 
 .email_addr {
@@ -68,30 +63,9 @@ aside {
 		padding: 0.3em 1em;
 		border-radius: 3px;
 		color: #fff;
-		margin: 2em 0;
+		margin-top: 2em;
 }
 
-textarea {
-	width: 100%;
-}
-.content-head {
-	font-weight: 400;
-	text-transform: uppercase;
-	letter-spacing: 0.1em;
-	margin: 2em 0 1em;
-}
-.is-center {
-	text-align: center;
-}
-.button-success {
-	color: white;
-	border-radius: 4px;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-	background: rgb(28, 184, 65); /* this is a green */
-}
-.button-xlarge {
-	font-size: 125%;
-}
 button {
 	float: right;
 }
@@ -103,18 +77,11 @@ button {
 	display: flex;
 }
 
-.adv_blocks:last-of-type {
-	margin-right: 0;
-}
-/*.adv_blocks:first-of-type {
-	margin-left: 0;
-}*/
 
 .adv_blocks {
 	margin: 4%;
-	background-color: #EBE7E0;
-	background-color: #F3F3F3;
-	border: 2px solid #EBE7E0;
+	border: 1px solid #EBE7E0;
+	border-radius: 0.5em;
 	justify-content: space-around;
 }
 
@@ -127,6 +94,7 @@ h3 .fa {
 	padding: 15px;
 	border: 1px solid #C6D4E1;
 	border-radius: 4px;
+	margin-bottom: 0.5em;
 }
 
 .fa-quote-left,
@@ -137,15 +105,10 @@ h3 .fa {
 	border:0;
 }
 
-.advtext {
-	font-size: 1.3em;
-}
-
 .general_comments {
 	font-size: 2em;
 	padding-left: 2em;
-/*	line-height: 1.5em;
-*/}
+}
 
 .focus_text {
 	font-size: 1.5em;
@@ -157,11 +120,7 @@ h3 .fa {
 	color: white;
 }
 
-/*.juridical-address {
-	font-size: 1.2em;
-}*/
-
-footer h4 {
+h4 {
 	font-size: 1.8em;
 	border-bottom: 1px solid;
 }
@@ -171,12 +130,37 @@ footer p {
 }
 
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 786px) {
+	body {
+		font-size: 12px;
+	}
 
-	.front_caption,
+	.front_caption {
+		font-size: 2em;
+	}
+
+	h3 {
+		font-size: 1.5em;
+	}
+
 	.phone_number,
 	.general_comments {
 		font-size: 1.5em;
+	}
+
+		.dostavka {
+		display: none;
+	}
+
+
+@media screen and (max-width: 560px) {
+
+	.front_caption {
+		font-size: 1.7em;
+	}
+
+	.general_comments {
+		font-size: 1.2em;
 	}
 
 	.email_addr {
@@ -187,30 +171,20 @@ footer p {
 		display: block;
 	}
 
-}
-
-@media screen and (max-width: 786px) {
-	body {
-		font-size: 12px;
+	.advtext {
+		font-size: 1.1em;
 	}
 
-}
-/*@media (max-width: 768px) {
-	body{font-size: 14px;}
-}
-*/
-/*@media only screen and (min-width : 768px)
-and {
-	body{font-size: 10px;}
-}
-*/
-/*footer {
-  	background: #7e7e7e;
-  	color: #dbdbdb;
-  	font-size: 11px;
-
-  	.container {
-		height: 110px;
-		padding: 10px 0;
+	footer p {
+		font-size: 0.8em;
 	}
-}*/
+
+	h4 {
+		font-size: 1.5em;
+	}
+
+	.general_comments {
+	padding: 0;
+	}
+}
+
